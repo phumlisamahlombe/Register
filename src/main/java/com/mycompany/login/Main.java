@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
+/*
 package com.mycompany.login;
 
 import java.util.Scanner;
@@ -36,7 +36,7 @@ public class Main {
         System.out.println("\n" + login.registerUser());
 
         
-        if (login.checkUserName() && login.checkPasswordComplexity() && login.checkCellPhoneNumber()) {
+*/        if (login.checkUserName() && login.checkPasswordComplexity() && login.checkCellPhoneNumber()) {
             System.out.println("\n=== Login ===");
 
             System.out.print("Enter username: ");
@@ -47,7 +47,7 @@ public class Main {
 
             System.out.println("\n" + login.returnLoginStatus(enteredUsername, enteredPassword));
         }
-
+/*
         scanner.close();
     }
 }
